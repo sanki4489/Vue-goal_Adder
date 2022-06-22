@@ -6,7 +6,7 @@ Vue.createApp({
         };
     },
     methods: {
-        setgoal() {
+        setGoal() {
             this.goals.push(this.value);
             this.value = '';
         }
